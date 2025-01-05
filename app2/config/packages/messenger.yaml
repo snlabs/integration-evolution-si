@@ -1,0 +1,10 @@
+framework:
+    messenger:
+        transports:
+            async:
+                dsn: '%env(MESSENGER_TRANSPORT_DSN)%'
+                #options:
+                #    auto_setup: truefailure_transport: failed
+        
+        routing:
+            'App\Message\YourMessage': async
