@@ -1,7 +1,0 @@
-enqueue:
-    default:
-        transport:
-            dsn: "kafka://kafka:9092"
-            topic: "symfony_topic"
-            group_id: "symfony_group"
-        client: ~
